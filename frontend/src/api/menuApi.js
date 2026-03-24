@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api';
-const BASE_URL = "https://dns-1-bgl5.onrender.com";
+
 const api = axios.create({ baseURL: "https://dns-1-bgl5.onrender.com/api" });
 
 // ─── Menus ───────────────────────────────────────────────────────────────────
